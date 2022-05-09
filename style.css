@@ -119,10 +119,13 @@ Variables
     text-align: center;
     padding: 2rem;
 }
-
 .btn-blue{
     background-color: #0a158d;
     color: var(--clr-white);
+}
+.btn-blue:hover{
+  background-color: #0314d1;
+  color: var(--clr-white);
 }
 
 /* nav - header */
@@ -208,9 +211,15 @@ Variables
     columns: var(--clr-grey-1);
 }
 
-.resume-btn{
-    background-color: #0a158d;
-    color: var(--clr-white);
+.about-resume-github{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-resume-github div{
+  margin: 1rem 2rem;
 }
 
 /* skills */
@@ -254,6 +263,10 @@ Variables
     padding-top: 2rem;
     margin-bottom: 2rem;
 }
+.projects .card-size{
+  height: 100%;
+  width: 100%;
+}
 
 /* contact */
 
@@ -272,10 +285,14 @@ Variables
     font-size: 2rem;
 }
 
+.contact i:hover{
+  transform: scale(1.2);
+}
+
 .social.icon{
     justify-content: center;
 }
 
-.contact i{
+ i{
     color: var(--clr-white);
 }
