@@ -114,7 +114,7 @@ Variables
     background-color: whitesmoke;
   }
 .card{
-  box-shadow: var(--light-shadow);
+  box-shadow: var(--dark-shadow);
 }
 
   /* section{
