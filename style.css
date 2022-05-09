@@ -110,6 +110,12 @@ Variables
       line-height: 1;
     }
   }
+  body{
+    background-color: whitesmoke;
+  }
+.card{
+  box-shadow: var(--light-shadow);
+}
 
   /* section{
       margin-top: 4rem;
